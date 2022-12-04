@@ -7,7 +7,4 @@
 4. JWT
   
 
-Layout:  https://www.figma.com/file/KIDux2sSutJ1FICYFGimKw/Diploma-Copy?node-id=932%3A2618
-
-Link:  https://nordicmovies.nomoredomains.icu/ 
-
+Layout:  https://www.figma.com/file/rvgxoQtPTyCNToQF9Eaws2/CourseWork?t=xa55NtoiyulT7ZsN-0
