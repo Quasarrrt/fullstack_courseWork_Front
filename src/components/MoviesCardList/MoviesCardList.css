@@ -1,0 +1,40 @@
+.card__list {
+  margin: 70px 42px 70px 70px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card__text {
+  color: #FFFFFF;
+}
+.card__more-btn {
+  width: 320px;
+  margin-bottom: 89px;
+  padding: 10px 0 10px 0;
+  color: #FFFFFF;
+  background: #2F2F2F;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+.card__more-btn:hover {
+  opacity: .7;
+}
+@media screen and (max-width:767px) {
+  .card__list {
+    margin: 70px 30px 70px 30px;
+    justify-content: center;
+  }
+}
+@media screen and (max-width:396px) {
+  .card__list {
+    margin: 40px 10px 91px 10px;
+    justify-content: center;
+  }
+  .card__more-btn {
+    width: 240px;
+  }
+}

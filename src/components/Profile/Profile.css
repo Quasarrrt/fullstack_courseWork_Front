@@ -1,0 +1,107 @@
+.account {
+  background: #202020;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+.account__container {
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.account__title {
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  margin-top:74px;
+  margin-bottom: 123px;
+  text-align: center;
+}
+.account__data {
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  width: 410px;
+}
+.account__text-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.account__text-wrapper_name {
+  margin-bottom: 16px;
+  border-bottom: 1px solid #424242;
+}
+.account__text-wrapper_email {
+}
+.account__text {
+  margin:0;
+}
+.account__confirm {
+  color: #3DDC84;
+}
+.account__text-label {
+  margin-bottom: 16px;
+  margin-top: 0;
+}
+.account__buttons {
+  margin-top: 220px;
+  margin-bottom: 65px;
+  display: flex;
+  flex-direction: column;
+}
+.account__button {
+  padding: 0;
+  font-weight: 500;
+  font-size: 13px;
+  background: none;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.account__button:hover {
+  opacity: .8;
+}
+.account__button_disabled {
+  cursor: not-allowed;
+}
+.account__button_type_signout {
+  color: #EE3465;
+  margin-top: 16px;
+}
+.account__button_type_edit {
+  margin-top: 210px;
+}
+.account__input-container {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+.account__input {
+  background: none;
+  border: none;
+  color: #FFFFFF;
+  text-align: right;
+}
+.account__input:focus {
+  border: none;
+  outline: none;
+}
+.account__error {
+  color:#EE3465;
+  margin-top: 10px;
+}
+
+@media screen and (max-width:767px){
+  .account__title {
+    margin-bottom: 96px;
+    margin-top: 200px;
+  }
+  .account__buttons {
+    margin-top: 210px;
+  }
+}
